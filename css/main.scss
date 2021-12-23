@@ -260,16 +260,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
-body {
-  padding: 30px;
-}
-
-.header {
-  background-image: url("../img/background.jpeg");
-  background-size: cover;
-  background-position: center;
-  height: 95vh;
-
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-}

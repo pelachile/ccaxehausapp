@@ -15,15 +15,31 @@
     <link rel="apple-touch-icon" href="icon.png" />
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/style.scss" />
 
     <meta name="theme-color" content="#fafafa" />
   </head>
 
   <body>
     <!-- Add your site or application content here -->
-    <header class="header">some text</header>
+    <header class="header">
+      <div class="header__logo-box">
+        <img
+          src="img/AxeHausLogo.png"
+          alt="Armory Outfitters"
+          class="header__logo"
+        />
+      </div>
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Corpus Christi AxeHaus</span>
+          <span class="heading-primary--sub"
+            >A virtual Valhalla for legendary experiences</span
+          >
+        </h1>
+        <a href="#" class="btn btn--cream">Book Your Experience</a>
+      </div>
+    </header>
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
