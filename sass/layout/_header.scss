@@ -1,0 +1,27 @@
+.header {
+  background-image: url("../img/background.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  position: relative;
+
+  &__logo-box {
+    left: 1em;
+    position: absolute;
+    top: 1em;
+  }
+
+  &__logo {
+    height: 64px;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+}
