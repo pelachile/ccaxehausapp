@@ -1,28 +1,61 @@
 .heading-primary {
-  color: $color-cream;
+  color: $color-bluegray;
   text-transform: uppercase;
   backface-visibility: hidden;
 
   &--main {
     display: block;
     font-weight: 400;
-    font-size: 1.4em;
-    letter-spacing: 0.2em;
+    font-size: 4.5rem;
+    letter-spacing: 1rem;
     animation-name: moveInLeft;
     animation-duration: 1s;
-    text-shadow: 3px 3px 2px rgba($color-black, 0.4);
+    text-shadow: 0.1rem 0.1rem 0.1rem rgba($color-white, 0.8);
   }
 
   &--sub {
-    display: block;
-    font-weight: 500;
-    font-size: 0.7em;
-    letter-spacing: 0.2em;
-    background-color: $color-navy;
-    padding: 0.2em;
-    border-radius: 15px;
     animation-name: moveInRight;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
+    background-color: rgba($color: $color-brown, $alpha: 0.5);
+    color: $color-cream;
+    display: block;
+    font-weight: 500;
+    font-size: 2.2rem;
+    letter-spacing: 0.5rem;
+    padding: 0.4rem 0.5rem;
+    text-shadow: 0.1rem 0.1rem 0.1rem rgba($color-black, 0.8);
+  }
+}
+
+.heading-secondary {
+  color: $color-tan;
+  display: inline-block;
+  font-size: 4rem;
+  font-weight: 800;
+  letter-spacing: 0.6rem;
+  padding: 0.5rem 2rem;
+  text-shadow: 0.2rem 0.2rem 0.1rem rgba($color-black, 0.4);
+  text-transform: uppercase;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: scale(1.025);
+    text-shadow: 0.5rem 1rem 2rem rgba($color: $color-black, $alpha: 0.3);
+  }
+}
+
+.heading-tertiary {
+  color: $color-tan;
+  font-size: 2.6rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: 2rem;
+
+  &:not(:last-child) {
+    margin-bottom: 1rem;
   }
 }
