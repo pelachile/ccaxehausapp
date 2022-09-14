@@ -5,7 +5,9 @@
 }
 
 .section-features {
-  padding: 20rem 0;
+  h3 {
+    color: #fff;
+  }
   background-image: url('../img/features-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;

@@ -603,6 +603,7 @@ body {
   font-weight: 800;
   letter-spacing: 0.6rem;
   padding: 0.5rem 2rem;
+  text-align: center;
   text-shadow: 0.2rem 0.2rem 0.1rem rgba(0, 0, 0, 0.4);
   text-transform: uppercase;
   transition: all 0.3s;
@@ -640,6 +641,10 @@ body {
 
 .u-margin-bottom-small {
   margin-bottom: 1.5rem;
+}
+
+.feature-box__text {
+  font-size: 3rem;
 }
 
 .btn:link, .btn:visited {
@@ -823,11 +828,13 @@ body {
 }
 
 .section-features {
-  padding: 20rem 0;
   background-image: url("/features-bg.e79f8597.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+.section-features h3 {
+  color: #fff;
 }
 
 /*# sourceMappingURL=/style.500aa19d.css.map */
